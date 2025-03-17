@@ -4,7 +4,7 @@
     "nombre": "Remera",
     "categoria": "ropa",
     "precio": 1500,
-    "img": "",
+    "img": "img/remera.jpg",
     "cantidad": 1
   },
   {
@@ -12,7 +12,7 @@
     "nombre": "Buzo",
     "categoria": "ropa",
     "precio": 2200,
-    "img": "",
+    "img": "img/buzo.jpg",
     "cantidad": 1
   },
   {
@@ -20,7 +20,7 @@
     "nombre": "Campera",
     "categoria": "ropa",
     "precio": 2500,
-    "img": "",
+    "img": "img/campera.jpg",
     "cantidad": 1
   },
   {
@@ -28,7 +28,7 @@
     "nombre": "Gorra",
     "categoria": "accesorios",
     "precio": 1200,
-    "img": "",
+    "img": "img/gorra.jpg",
     "cantidad": 1
   },
   {
@@ -36,23 +36,23 @@
     "nombre": "Cadena",
     "categoria": "accesorios",
     "precio": 800,
-    "img": "",
+    "img": "img/cadenita.jpg",
     "cantidad": 1
   },
   {
     "id": 6,
-    "nombre": "Pantalon",
+    "nombre": "Remera",
     "categoria": "ropa",
     "precio": 8000,
-    "img": "",
+    "img": "img/remera.jpg",
     "cantidad": 1
   },
   {
     "id": 7,
-    "nombre": "Zapatilla",
+    "nombre": "Buzo",
     "categoria": "ropa",
     "precio": 1800,
-    "img": "",
+    "img": "img/buzo.jpg",
     "cantidad": 1
   },
   {
@@ -60,7 +60,7 @@
     "nombre": "Polera",
     "categoria": "ropa",
     "precio": 800,
-    "img": "",
+    "img": "img/remera.jpg",
     "cantidad": 1
   },
   {
@@ -68,7 +68,7 @@
     "nombre": "Dije",
     "categoria": "accesorios",
     "precio": 1000,
-    "img": "",
+    "img": "img/cadenita.jpg",
     "cantidad": 1
   }
 ]
