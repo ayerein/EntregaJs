@@ -6,56 +6,62 @@
     <title>Tienda</title>
     <link rel="stylesheet" href="./styles.css">
 	<script defer src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-
-    <div class="contenedor-principal" id="contenedorPrincipal">
+    <div class="nav" id="nav">
+        <div class="contenedor-logo">
+            <p class="logo">Tienda</p>
+        </div>
         <div class="contenedor-abrir-carrito">
             <button class="btn-abrir-carrito" id="btnModal">
                 <img src="img/carrito.png" alt="Carrito">
             </button>
         </div>
+    </div>
+    <div class="contenedor-principal" id="contenedorPrincipal">
+        
         <div class="contenedor-cards" id="contenedorCards"></div>
     </div>
 
-    <div class="finalizarCompra" id="modalFinalizarCompra">
-        <div class="cerrarModal">
-            <button class="btnCerrarModal" id="btnCerrarModal">Cerrar</button>
+    <div class="finalizar-compra" id="modalFinalizarCompra">
+        <div class="cerrar-modal">
+            <button class="btn-cerrar-modal" id="btnCerrarModal">Cerrar</button>
         </div>
 
-        <div class="contenedorContacto">
+        <div class="contenedor-contacto">
 
-            <div class="contactoFC">
+            <div class="contacto-f-c">
 
-                <div class="inputContacto">
+                <div class="input-contacto">
                     <p>Informacion de contacto</p>
                     <input type="email" name="email" id="email" placeholder="Email" class="input" required>
                 </div>
 
-                <div class="inputContacto">
+                <div class="input-contacto">
                     <p>Ingresa tu nombre</p>    
                     <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="input" required>
                 </div>
 
-                <div class="inputContacto">
+                <div class="input-contacto">
                     <p>Direccion de envio</p>
                     <input type="text" name="direccion" id="direccion" placeholder="Direccion de envio" class="input" required>
                 </div>
             </div>
         </div>
         
-        <div class="contenedorCarro">
+        <div class="contenedor-carro">
 
-            <div class="carritoFC" id="carritoFC">
-                <h3 id="tituloCarrito">Tu carrito esta vacio</h3>                                    
+            <div class="carrito-f-c" id="carritoFC">
+                <p class="titulo-carrito" id="tituloCarrito">Tu carrito esta vacio</p>                                    
                 
-                <div class="contenedorCarrito" id="contenedorCarrito"></div>
-                <p class="precioFinal">Precio Final: $<span id="precioFinal">0</span></p>
+                <div class="contenedor-carrito" id="contenedorCarrito"></div>
+                <p class="precio-final">Precio Final: $<span id="precioFinal">0</span></p>
             </div>
         </div>
 
-        <div class="contenedorBtnFinalizar">
-            <button class="btnFinalizarCompra" id="btnFinalizarCompra">Finalizar compra</button>
+        <div class="contenedor-btn-finalizar">
+            <button class="btn-finalizar-compra" id="btnFinalizarCompra">Finalizar compra</button>
         </div>
 
     </div>
